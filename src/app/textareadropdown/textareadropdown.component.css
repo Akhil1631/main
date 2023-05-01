@@ -1,0 +1,47 @@
+.textarea {
+    width: 35%;
+ height: 80px;
+ border-color: orange;
+  border: 2px solid orange;
+    
+    }
+
+ .dropdown {
+     margin-top: -65px;
+     background-color: whitesmoke;
+     margin-left: 20px;
+     width: 15%;
+    position: absolute;
+     border: 1px solid black;
+    
+    }
+  
+    .dropdown:focus {
+    
+     background-color: blue;
+    
+    }
+    
+    .listHeader {
+    
+     padding: 0px;
+    
+    }
+      .list {
+     list-style-type: none;
+     padding: 5px;
+     cursor: pointer;
+    
+    }
+   
+    .list:hover {background-color: blue; color: white; padding-left: 5px;}
+    
+.selected {
+   background-color: blue;
+   color: white;   
+    }
+
+.list span{
+    background-color: yellow;
+}
+    

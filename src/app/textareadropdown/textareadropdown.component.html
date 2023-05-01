@@ -1,0 +1,16 @@
+<div>
+
+     <textarea [(ngModel)]="inputText" #dropdown class="textarea" (keydown)="keydown($event)" id="box"></textarea>
+
+    
+ <div *ngIf="showDropdown" class="dropdown" (click)="hidedropdown($event)">
+    
+    <ul #dropdownlist class="listHeader">
+    
+ <li class="list" *ngFor="let option of options; let i = index" [ngClass]="{'selected':i===selectedIndex}" (click)="submit(option)">{{option}}</li>
+    
+  </ul>
+    
+</div>
+    
+    </div>
